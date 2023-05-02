@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;700&family=Finger+Paint&family=Great+Vibes&family=Montserrat:wght@300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;700&family=Finger+Paint&family=Great+Vibes&family=Montserrat:wght@300;400;700;800&family=Pompiere&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Edu+NSW+ACT+Foundation:wght@400;500;700 & family= Finger+Paint & family= Great+Vibes & family= Montserrat:wght@300;400;700;800 & family= Pompiere & family= Roboto+Condensed:ital,wght@0,300;1,300 & display=swap');
+:root{
+    --font-f:'Great Vibes', cursive;
+    --font-a:'Pompiere', cursive;
+    --font-b: 'Roboto Condensed', sem serifa;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("img/fundo1.jpg");
+    background-size: 170%;
+    background-repeat: no-repeat;
+}
+.container{ 
+    font-family: var(--font-b);
+    margin: 6%;
+  background:rgba(255, 255, 255, 0.296);
+  border: 10px solid rgba(184, 180, 180, 0.048);
+  border-style: double;
+  border-radius: 10px;
+ }
+#Centro{
+    position: relative;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+span{
+color: red;
+}
+h1{
+    text-align: center;
+}
+p{
+    margin: 10px 10px 10px 10px;
+    
+}
+
